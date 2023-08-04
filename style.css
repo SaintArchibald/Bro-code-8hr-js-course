@@ -1,0 +1,122 @@
+section {
+    padding: 24px 2px;
+    border: 1px solid;
+
+}
+.section6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#countAt {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 100px;
+    height: 100px;
+    border: 1px solid;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#section7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.parentDice {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dice {
+    /* width: calc(100% / 3); */
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    margin: 4px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttonRoll {
+    margin: 4px;
+    width: 100%;
+    max-width: 100px;
+    height: 100%;
+    max-height: 100px;
+    
+}
+
+#section10 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.answerBox {
+    display: flex;
+}
+
+.square {
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 0; */
+    transition: all 500ms linear;
+    animation: bounceIn 2s ease infinite alternate;
+    overflow: hidden;
+}
+
+@keyframes bounceIn {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    50% {
+        rotate: 170deg;
+    }
+    60% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+    }
+  }
+
+.hello {
+transform: matrix(1, 2, 3, 4, 5, 6);
+transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+transform: perspective(17px);
+transform: rotate(0.5turn);
+transform: rotate3d(1, 2, 3, 10deg);
+transform: rotateX(10deg);
+transform: rotateY(10deg);
+transform: rotateZ(10deg);
+transform: translate(12px, 50%);
+transform: translate3d(12px, 50%, 3em);
+transform: translateX(2em);
+transform: translateY(3in);
+transform: translateZ(2px);
+transform: scale(2, 0.5);
+transform: scale3d(2.5, 1.2, 0.3);
+transform: scaleX(2);
+transform: scaleY(0.5);
+transform: scaleZ(0.3);
+transform: skew(30deg, 20deg);
+transform: skewX(30deg);
+transform: skewY(1.07rad);
+}

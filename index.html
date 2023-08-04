@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bro Code 8hr JS course</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <section id="section1">
+      <div class="window__alert">creating a window Alert</div>
+      <p id="alert"></p>
+    </section>
+
+    <section id="section2">
+      <div class="window__alert">
+        creating a window prompt: can accept user input
+      </div>
+      <p id="prompt"></p>
+    </section>
+
+    <section id="section3">
+      <div class="innerHTMLbyId">Targetting innerHTML by Id in JS</div>
+      <p id="p1"></p>
+      <p id="p2"></p>
+      <p id="p3"></p>
+    </section>
+
+    <section id="section4 acceptInputValuesInJS">
+      <label for="nameInput">Enter your name:</label>
+      <input
+        name="nameInput"
+        id="myTextName"
+        type="text"
+        minlength="2"
+        placeholder="type your name"
+        required
+      />
+      <button type="button" id="myButtonName">submit</button>
+      <div id="inputName"></div>
+
+      <label for="ageInput">Enter your age:</label>
+      <input
+        name="ageInput"
+        id="myTextAge"
+        type="text"
+        minlength="1"
+        maxlength="3"
+        placeholder="type your age"
+        required
+      />
+      <button type="button" id="myButtonAge">submit</button>
+      <div id="inputAge"></div>
+
+      <label for="genderInput">Enter your gender: M / F</label>
+      <input
+        name="genderInput"
+        id="myTextGender"
+        type="text"
+        maxlength="1"
+        placeholder="type your genger"
+        required
+      />
+      <button type="button" id="myButtonGender">submit</button>
+      <div id="inputGender"></div>
+    </section>
+
+    <section id="section5">
+      <label for="sideA">Side A:</label>
+      <input id="sideA" name="sideA" type="text" required />
+      <button type="button" id="buttonSideA">Submit!</button>
+
+      <label for="sideB">side B:</label>
+      <input id="sideB" name="sideB" type="text" required />
+      <button type="button" id="buttonSideB">Submit!</button>
+
+      <label for="sideC">Side C/ hypotenuse:</label>
+      <button type="button" id="buttonSideC">Solve!</button>
+
+      <div id="angleC"></div>
+    </section>
+
+    <section id="section6">
+      <div class="section6">
+        <div id="countAt"></div>
+        <div>
+          <button id="decrease">Decrease</button>
+          <button id="reset">Reset</button>
+          <button id="increase">Increase</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="section7">
+      <div class="parentDice">
+        <div id="diceX" class="dice"></div>
+        <div id="diceY" class="dice"></div>
+        <div id="diceZ" class="dice"></div>
+      </div>
+      <button id="buttonRoll" type="button">Roll</button>
+    </section>
+
+    <section id="section8">
+      <p>Decide if you wish to subscribe and pay for patrion:</p>
+      <label for="myCheckBox">Subscribe</label>
+      <input name="myCheckBox" id="myCheckBox" type="checkbox" />
+
+      <label for="visaBtn">Visa</label>
+      <input type="radio" name="card" id="visaBtn" />
+
+      <label for="mastercardBtn">Mastercard</label>
+      <input type="radio" name="card" id="mastercardBtn" />
+
+      <label for="paypalBtn">Paypal</label>
+      <input type="radio" name="card" id="paypalBtn" />
+      <button id="checkBoxButton">Submit</button>
+
+      <div id="subscribeAndCard"></div>
+    </section>
+
+    <section id="section9">
+        <label for="shapeRow"># of rows</label>
+        <input name="shapeRow" type="text" id="shapeRow">
+        <br>
+        <label for="shapeRow"># of columns</label>
+        <input name="shapeRow" type="text" id="shapeColumn">
+        <br>
+        <label for="shapeRow">choose a symbol: @,$,&, etc</label>
+        <input name="shapeSymbol" type="text" id="shapeSymbol">
+        <br>
+        <button id="shapeButton">Build Rectangle</button><br>
+        <label id="myRectangle"  for="">My Rectangle: <br/></label>
+    </section>
+
+    <section id="section10">
+        <h1>Number Guessing Game</h1>
+        <p>Pick a # between 1 - 10</p>
+        <label for="guess"> Enter a guess:</label>
+
+        <input name="guess" type="text" id="guess">
+        <button id="guessBtn">Guess</button>
+
+        <div id="notANumber"></div>
+
+        <div class="answerBox">
+            <div class="dice" id="inputGuess">Your #</div>
+            <div class="dice" id="winningGuess">Winning #</div>
+        </div>
+    </section>
+
+    <section id="section11">
+        <h1>Convert Temperarure to Celcuis or Fahrenheit</h1>
+        <label for="tempBox">Enter a Temperature:</label>
+        <input name="tempBox" type="text" id="tempBox">
+        <br>
+
+        <label for="">Convert to:</label>
+        <br>
+        <label for="cButton">Celcius</label>
+        <input name="cButton" type="radio" id="celciusC">
+        <br>
+        <label for="cButton">Fahrenheit</label>
+        <input name="cButton" type="radio" id="fahrenheitF">
+        <br>
+
+        <button type="button" id="convertCF">Convert</button><br>
+
+        <div id="tempConverted"></div>
+
+
+    </section>
+
+    <section id="section12">
+        <label id="myLabel" for=""></label>
+    </section>
+
+    <section id="section13">
+      <div class="square"></div>
+     
+    </section>
+  </body>
+</html>
